@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<body>
+  <input type="file" id="fileInput">
+  <select id="conversionType">
+    <option value="xml_to_csv">XML to CSV</option>
+    <option value="csv_to_xml">CSV to XML</option>
+  </select>
+  <button onclick="convertFile()">Convert</button>
+
+  <script>
+    async function convertFile() {
+      const fileInput = document.getElementById('fileInput');
+      const conversionType = document.getElementById('conversionType').value;
+
+      const formData = new FormData();
+      formData.append('file', fileInput.files[0]);
+     
+      try {
+        const response = await fetch(`/convert/${conversionType}`, {
+          method: 'POST',
+          body: formData
+        });
+
+        const blob = await response.blob();
+        const url = window.URL.createObjectURL(blob);
+        const link = document.createElement('a');
+        link.href = url;
+        link.download = response.headers.get('Content-Disposition').split('filename=')[1]; // Extract filename from header
+        link.click();
+      } catch (error) {
+        console.error('Error:', error);
+      }
+    }
+  </script>
+</body>
+</html>

@@ -1,75 +1,13 @@
-<?xml version='1.0' encoding='utf-8'?>
+<!-- customer_xml.xml -->
 <customers>
-	<customer>
-		<Customer Id>DD37Cf93aecA6Dc</Customer Id>
-		<First Name>Sheryl</First Name>
-		<Last Name>Baxter</Last Name>
-		<City>East Leonard</City>
-		<Email>zunigavanessa@smith.info</Email>
-		<Subscription Date>24-08-2020</Subscription Date>
-	</customer>
-	<customer>
-		<Customer Id>1Ef7b82A4CAAD10</Customer Id>
-		<First Name>Preston</First Name>
-		<Last Name>Lozano</Last Name>
-		<City>East Jimmychester</City>
-		<Email>vmata@colon.com</Email>
-		<Subscription Date>23-04-2021</Subscription Date>
-	</customer>
-	<customer>
-		<Customer Id>6F94879bDAfE5a6</Customer Id>
-		<First Name>Roy</First Name>
-		<Last Name>Berry</Last Name>
-		<City>Isabelborough</City>
-		<Email>beckycarr@hogan.com</Email>
-		<Subscription Date>25-03-2020</Subscription Date>
-	</customer>
-	<customer>
-		<Customer Id>5Cef8BFA16c5e3c</Customer Id>
-		<First Name>Linda</First Name>
-		<Last Name>Olsen</Last Name>
-		<City>Bensonview</City>
-		<Email>stanleyblackwell@benson.org</Email>
-		<Subscription Date>02-06-2020</Subscription Date>
-	</customer>
-	<customer>
-		<Customer Id>053d585Ab6b3159</Customer Id>
-		<First Name>Joanna</First Name>
-		<Last Name>Bender</Last Name>
-		<City>West Priscilla</City>
-		<Email>colinalvarado@miles.net</Email>
-		<Subscription Date>17-04-2021</Subscription Date>
-	</customer>
-	<customer>
-		<Customer Id>2d08FB17EE273F4</Customer Id>
-		<First Name>Aimee</First Name>
-		<Last Name>Downs</Last Name>
-		<City>Chavezborough</City>
-		<Email>louis27@gilbert.com</Email>
-		<Subscription Date>25-02-2020</Subscription Date>
-	</customer>
-	<customer>
-		<Customer Id>EA4d384DfDbBf77</Customer Id>
-		<First Name>Darren</First Name>
-		<Last Name>Peck</Last Name>
-		<City>Lake Ana</City>
-		<Email>tgates@cantrell.com</Email>
-		<Subscription Date>24-08-2021</Subscription Date>
-	</customer>
-	<customer>
-		<Customer Id>0e04AFde9f225dE</Customer Id>
-		<First Name>Brett</First Name>
-		<Last Name>Mullen</Last Name>
-		<City>Kimport</City>
-		<Email>asnow@colon.com</Email>
-		<Subscription Date>12-04-2021</Subscription Date>
-	</customer>
-	<customer>
-		<Customer Id>C2dE4dEEc489ae0</Customer Id>
-		<First Name>Sheryl</First Name>
-		<Last Name>Meyers</Last Name>
-		<City>Robersonstad</City>
-		<Email>mariokhan@ryan-pope.org</Email>
-		<Subscription Date>13-01-2020</Subscription Date>
-	</customer>
+    <customer>
+        <id>1</id>
+        <name>John Doe</name>
+        <email>john.doe@example.com</email>
+    </customer>
+    <customer>
+        <id>2</id>
+        <name>Jane Smith</name>
+        <email>jane.smith@example.com</email>
+    </customer>
 </customers>

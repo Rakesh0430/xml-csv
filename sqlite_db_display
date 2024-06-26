@@ -1,0 +1,16 @@
+import sqlite3
+
+# Connect to SQLite database
+conn = sqlite3.connect('customer_db.sqlite')
+cursor = conn.cursor()
+
+# Example query to fetch data from the database
+cursor.execute("SELECT * FROM customers")
+rows = cursor.fetchall()
+
+# Print the fetched rows (you can format this output as needed)
+for row in rows:
+    print(row)
+
+# Close connection
+conn.close()
